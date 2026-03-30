@@ -1,0 +1,27 @@
+.user-form {
+    display: grid;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid #cccccc;
+}
+
+.user-form__group {
+    display: grid;
+    gap: 6px;
+}
+
+.user-form__input {
+    padding: 10px;
+    border: 1px solid #999999;
+    font-size: 16px;
+}
+
+.user-form__button {
+    padding: 10px;
+    border: 1px solid #333333;
+    background: #f0f0f0;
+}
+
+.user-form__error {
+    color: red;
+}
